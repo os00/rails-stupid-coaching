@@ -1,0 +1,46 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#input-text-box {
+  height: 25px;
+  width: 300px;
+  font-size: 16px;
+}
+
+#input-button {
+  background-color: #0074a5;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.card-product {
+  display: flex;
+  height: 82px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px rgb(168, 168, 168);
+  flex-direction: column;
+  width: 600px;
+}
+
+.card-product h2 {
+  margin: 0;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.card-product p {
+  margin: 0;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.answer {
+  background-color: #fff6db;
+}
